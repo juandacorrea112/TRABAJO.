@@ -1,0 +1,242 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body .angel{
+    height: 100vh;
+    width: 100%;
+    margin-left: 1%;
+    float: left;
+    
+}
+
+body .control1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+body .control1 h1{
+    position: absolute;
+    margin-top: 15%;
+    left: 42%;
+    color: white;
+    font-size: 800%;
+}
+
+.contenedor{
+    float: inline-end;
+}
+
+.contenedor .control2{
+    float: left;
+    margin-left: 10%;
+    font-size: 25px;
+    margin-top: 14%;
+    
+}
+
+.contenedor .control2 .musiccolor{
+    background: linear-gradient(90deg, rgb(255, 115, 0) 0%, rgb(225, 0, 255) 100%);
+    font-family: system-ui;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3rem;
+}
+
+.contenedor .control2 .boton1{
+    border: none;
+    height: 60px;
+    width: 150px;
+    border-radius: 35px;
+    background-color: rgb(251, 78, 59);
+    color: white;
+}
+.contenedor p{
+    font-size: 20px;
+}
+
+.contenedor .matt{
+    padding-top: 900px;
+    height: 60%;
+}
+
+.contenedor2{
+    float: inline-end;
+}
+
+.contenedor2 .wesley{
+    margin-left: 40px;
+    margin-top: 90px;
+}
+
+.contenedor2 .control3{
+    float: right;
+    margin-right: 40px;
+    margin-top: 8%;
+    font-size: 23px;
+}
+
+.contenedor2 .control3 .loudercolor{
+    background: linear-gradient(90deg, rgb(255, 115, 0) 0%, rgb(225, 0, 255) 100%);
+    font-family: system-ui;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3rem;
+}
+
+.contenedor2 .control3 .boton2{
+    border: none;
+    height: 60px;
+    width: 150px;
+    border-radius: 35px;
+    background-color: rgb(251, 78, 59);
+    color: white;
+}
+
+.fondoguitarra{
+    margin-top: 8%;
+    height: 100vh;
+    width: 1370px;
+    background: url(imagenes/john-raptis.png);
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+}
+
+.fondoguitarra .control4{
+    color: white;
+    font-size: 300%;
+    margin-left: 60%;
+    position: absolute;
+    margin-top: 6%;
+}
+
+.fondoguitarra .control4 p{
+    color: white;
+    font-size: 17px;
+}
+
+.fondoguitarra .control4 .boton3{
+    border: none;
+    height: 60px;
+    width: 150px;
+    border-radius: 35px;
+    background-color: rgb(251, 78, 59);
+    color: white;
+}
+
+.fondoguitarra .piepagina footer{
+    background-color: rgb(251, 78, 59);
+    width: 100%;
+    position: absolute;
+    margin-top: 47.2%;
+    float: inline-end;
+}
+
+.grid-container {
+    color: #fff;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 100%;
+    height: 50%;
+    
+}
+
+.container--{
+    margin-left: 15%;
+}
+
+.footerText{
+    margin-left: 15%;
+    color: #fff;
+}
+
+.footer{
+    margin-left: 15%;
+    color: #fff;
+}
+
+.fotterText hr{
+    position: absolute;
+    height: 1px;
+    width: 80%;
+    background-color: white;
+    margin-left: 15%;
+}
+
+
+
+
+/* ------------- responsive -------------- */
+
+
+@media screen and (max-width: 800px){
+    body .angel{
+        width: 790px;
+        height: 450px;        
+    }
+    body .control1 h1{
+        font-size: 500%;
+        margin-left: -3%;
+        
+    }
+    body .control1 h1{
+            font-size: 500%;
+            margin-left: -3%;
+            
+        }
+        .fondoguitarra{
+        background: url(imagenes/john-raptis.png);
+        width: 800px;
+        height: 450px;
+        font-size: -10%;
+    }
+    .fondoguitarra .control4{
+        font-size: 80%;
+        margin-top: 2%;
+    }
+    .fondoguitarra .piepagina footer{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .contenedor2 .control3{
+        margin-right: 100px;
+    }
+}
+
+/*---------------responsive en 700px----------------*/
+
+@media screen and (max-width: 700px){
+    body .angel{
+        width: 790px;
+        height: 450px;        
+    }
+    body .control1 h1{
+        font-size: 500%;
+        margin-left: -3%;
+        
+    }
+    body .control1 h1{
+            font-size: 500%;
+            margin-left: -3%;
+            
+        }
+        .fondoguitarra{
+        background: url(imagenes/john-raptis.png);
+        width: 800px;
+        height: 450px;
+        font-size: -10%;
+    }
+    .fondoguitarra .control4{
+        font-size: 80%;
+        margin-top: 2%;
+    }
+    .fondoguitarra .piepagina footer{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .contenedor2 .control3{
+        margin-right: 20px;
+    }
+     
+}
